@@ -1,0 +1,2 @@
+# FvTT_v13_KR
+FvTT_v13 버전의 한글화 모듈입니다. This is the Korean localization module for Foundry Virtual Tabletop version 13 
