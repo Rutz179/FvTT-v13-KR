@@ -1,0 +1,31 @@
+{
+    "id": "FvTT_v13_KR",
+    "compatibility": {
+        "minimum": 12,
+        "verified": "13"
+    },
+    "title": "FvTT_v13_KR",
+    "description": "FvTT v13버전 코어의 한국어 번역 모듈입니다.<br>This is a Korean translation module for the Foundry VTT Core version 13.",
+    "version": "1.0",
+    "authors": [
+        {
+            "name": "Rutz(rutz179)"
+        }
+    ],
+    "coreTranslation": true,
+    "languages": [
+        {
+            "lang": "ko",
+            "name": "Korean",
+            "path": "lang/ko.json"
+        }
+    ],
+    "scripts": [],
+    "styles": [
+        "css/ko.css"
+    ],
+    "packs": [],
+    "url": "https://github.com/Rutz179/PF2e-KR",
+    "manifest": "TE",
+    "download": "TE"
+}
