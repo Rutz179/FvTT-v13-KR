@@ -98,6 +98,10 @@
 "YCoord": "Y 좌표",
 "Yes": "예",
 
+"SETTINGS.Configure": "환경 설정",
+"SETTINGS.Keybindings": "조작 설정",
+"SETTINGS.ViewModules": "활성화된 모듈 보기",
+
 "ADVENTURE": {
   "ImportSubmit": "어드벤처 가져오기",
   "ImportProgress": "가져오기",
