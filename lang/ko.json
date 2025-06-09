@@ -3445,12 +3445,12 @@
 
 "TIME": {
   "Day": {
-    "one": "Day",
-    "other": "Days",
+    "one": "일일",
+    "other": "일",
     "abbr": "d"
   },
   "Hour": {
-    "one": "Hour",
+    "one": "시간간",
     "other": "시간",
     "abbr": "h"
   },
@@ -3460,19 +3460,19 @@
     "abbr": "ms"
   },
   "Minute": {
-    "one": "Minute",
-    "other": "Minutes",
+    "one": "분분",
+    "other": "분",
     "abbr": "m"
   },
-  "Now": "Now",
+  "Now": "지금금",
   "Second": {
-    "one": "Second",
+    "one": "초",
     "other": "초",
     "abbr": "s"
   },
-  "Since": "{이후} 전",
+  "Since": "{since} 전",
   "Year": {
-    "one": "Year",
+    "one": "년",
     "other": "년",
     "abbr": "y"
   }
