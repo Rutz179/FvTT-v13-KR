@@ -10,4 +10,4 @@ This is the Korean localization module for Foundry Virtual Tabletop version 13
 ![image](https://github.com/user-attachments/assets/1a18f3c1-10e0-4d5c-ae63-4c011e040d1f)
 
 
-Last Update: 2025-06-05
+Last Update: 2025-06-10
