@@ -1,6 +1,6 @@
 # FvTT-v13-KR 🇰🇷
 
-![Status](https://img.shields.io/badge/status-Beta-yellow)
+![Status](https://img.shields.io/badge/status-Release-yellow)
 ![License](https://img.shields.io/badge/license-CUP-blue)
 ![Foundry VTT](https://img.shields.io/badge/FoundryVTT-v13_Compatible-orange)
 
