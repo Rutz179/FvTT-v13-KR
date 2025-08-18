@@ -1,12 +1,12 @@
 {
     "id": "FvTT-v13-KR",
     "compatibility": {
-        "minimum": 12,
-        "verified": "13"
+        "minimum": "12",
+        "verified": "13.347"
     },
     "title": "Rutz's FvTT-v13-KR",
     "description": "FvTT v13버전 코어의 한국어 번역 모듈입니다.<br>This is a Korean translation module for the Foundry VTT Core version 13.",
-    "version": "1.3",
+    "version": "1.3.1",
     "authors": [
         {
             "name": "Rutz(rutz179)"
@@ -24,6 +24,6 @@
 
     "packs": [],
     "url": "https://github.com/Rutz179/FvTT_v13_KR",
-    "manifest": "https://github.com/Rutz179/FvTT_v13_KR/releases/download/FvTT-v13-KR/module.json",
-    "download": "https://github.com/Rutz179/FvTT_v13_KR/releases/download/FvTT-v13-KR/FvTT-v13-KR.zip"
+    "manifest": "https://github.com/Rutz179/FvTT_v13_KR/releases/latest/download/module.json",
+    "download": "https://github.com/Rutz179/FvTT_v13_KR/releases/latest/download/FvTT-v13-KR.zip"
 }

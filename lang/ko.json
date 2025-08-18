@@ -98,10 +98,6 @@
 "YCoord": "Y 좌표",
 "Yes": "예",
 
-"SETTINGS.Configure": "환경 설정",
-"SETTINGS.Keybindings": "조작 설정",
-"SETTINGS.ViewModules": "활성화된 모듈 보기",
-
 "ADVENTURE": {
   "ImportSubmit": "어드벤처 가져오기",
   "ImportProgress": "가져오기",
@@ -492,116 +488,145 @@
 "CHAT.PrivateRollContent": "{user} 님이 비공개 굴림을 했습니다.",
 "CHAT.UnknownUser": "알 수 없는 유저",
 
-"COMBAT.NavLabel": "전투 인카운터 내비게이션",
-"COMBAT.Begin": "전투 개시",
-"COMBAT.Create": "인카운터 생성",
-"COMBAT.Delete": "인카운터 삭제",
-"COMBAT.Encounter": "인카운터",
-"COMBAT.EncounterPrevious": "이전 인카운터 활성화",
-"COMBAT.EncounterNext": "다음 인카운터 활성화",
-"COMBAT.End": "전투 종료",
-"COMBAT.InitiativeRoll": "우선권 굴림",
-"COMBAT.InitiativeReset": "우선권 초기화",
-"COMBAT.ClearMovementHistories": "이동 기록 지우기",
-"COMBAT.InitiativeScore": "이니셔티브 점수",
-"COMBAT.EndTitle": "전투 인카운터를 종료합니까?",
-"COMBAT.EndConfirmation": "이 전투를 종료하고 턴 트래커를 비우시겠습니까?",
-"COMBAT.Linked": "장면에 연결됨. 연결 해제하려면 클릭",
-"COMBAT.None": "활성화된 인카운터 없음",
-"COMBAT.NoneActive": "현재 장면에 활성화된 전투 인카운터가 없습니다.",
-"COMBAT.NoneRemaining": "이 인카운터에 쓰러지지 않은 전투원이 없습니다.",
-"COMBAT.NotStarted": "시작되지 않음",
-"COMBAT.PanToCombatant": "전투원 쪽으로 화면 이동",
-"COMBAT.PingCombatant": "전투원 핑",
-"COMBAT.WarnNonVisibleToken": "이 전투원은 당신에게 보이지 않습니다.",
-"COMBAT.Round": "전투 라운드",
-"COMBAT.Rounds": "라운드",
-"COMBAT.RoundPrev": "이전 라운드",
-"COMBAT.RoundNext": "다음 라운드",
-"COMBAT.RollNPC": "NPC 우선권 굴리기",
-"COMBAT.RollAll": "모든 우선권 굴리기",
-"COMBAT.RollsInitiative": "{name} 캐릭터가 우선권을 굴립니다!",
-"COMBAT.Settings": "전투 트래커 설정",
-"COMBAT.SettingsSave": "트래커 설정 저장",
-"COMBAT.SidebarTitle": "전투 트래커",
-"COMBAT.Sounds.Epic": "에픽 사운드",
-"COMBAT.Sounds.MC": "전투 해설자",
-"COMBAT.ToggleVis": "숨기기/보이기 전환",
-"COMBAT.ToggleDead": "쓰러짐으로 표시",
-"COMBAT.Turn": "전투 차례",
-"COMBAT.Turns": "차례",
-"COMBAT.TurnEnd": "차례 종료",
-"COMBAT.TurnNext": "다음 차례",
-"COMBAT.TurnPrev": "이전 차례",
-"COMBAT.UnknownCombatant": "미지의 전투원",
-"COMBAT.Unlinked": "연결되지 않은 전투. 장면에 연결하려면 클릭",
-"COMBAT.CannotLinkToScene": "해당 전투를 장면에 링크하려면 장면에 전투원이 모두 있어야 합니다.",
-
-"COMBAT.CombatantActor": "연결된 액터",
-"COMBAT.CombatantCreate": "전투원 생성",
-"COMBAT.CombatantDefeated": "쓰러짐",
-"COMBAT.CombatantHidden": "숨겨짐",
-"COMBAT.CombatantImage": "섬네일 이미지",
-"COMBAT.CombatantInitiative": "우선권 값",
-"COMBAT.CombatantStatus": "전투원 상태",
-"COMBAT.CombatantUpdate": "전투원 업데이트",
-"COMBAT.CombatantUpdateNamed": "전투원 업데이트: {name}",
-"COMBAT.CombatantName": "표시된 이름",
-"COMBAT.CombatantRemove": "전투원 제거",
-"COMBAT.CombatantClear": "우선권 초기화",
-"COMBAT.CombatantReroll": "우선권 재굴림",
-"COMBAT.CombatantClearMovementHistory": "이동 기록 지우기",
-"COMBAT.CombatantMovementHistoryCleared": "토큰 \"{name}\"의 이동 기록을 지웠습니다.",
-"COMBAT.CombatantToken": "연결된 토큰",
-"COMBAT.CombatantScene": "전투원 장면",
-"COMBAT.CombatantNotInScene": "현재 장면에 {name} 전투원이 없습니다",
-
-"COMBAT.FIELDS": {
-  "round.label": "라운드",
-  "turn.label": "턴"
-},
-
-"COMBAT.TURN_MARKERS": {
-  "ANIMATIONS": {
-    "SPIN": "회전",
-    "SPIN_PULSE": "회전 + 맥동",
-    "PULSE": "맥동"
-  }
-},
-"COMBAT.CONFIG": {
-  "SHEET": {
-    "TURN_MARKERS": "토큰 턴 마커"
+"COMBAT": {
+  "NavLabel": "전투 인카운터 내비게이션",
+  "Begin": "전투 개시",
+  "Create": "인카운터 생성",
+  "Delete": "인카운터 삭제",
+  "Encounter": "인카운터",
+  "EncounterPrevious": "이전 인카운터 활성화",
+  "EncounterNext": "다음 인카운터 활성화",
+  "End": "전투 종료",
+  "InitiativeRoll": "우선권 굴림",
+  "InitiativeReset": "우선권 초기화",
+  "ClearMovementHistories": "이동 기록 지우기",
+  "InitiativeScore": "이니셔티브 점수",
+  "EndTitle": "전투 인카운터를 종료합니까?",
+  "EndConfirmation": "이 전투를 종료하고 턴 트래커를 비우시겠습니까?",
+  "None": "활성화된 인카운터 없음",
+  "NoneActive": "현재 장면에 활성화된 전투 인카운터가 없습니다.",
+  "NoneRemaining": "이 인카운터에 쓰러지지 않은 전투원이 없습니다.",
+  "NotStarted": "시작되지 않음",
+  "PanToCombatant": "전투원 쪽으로 화면 이동",
+  "PingCombatant": "전투원 핑",
+  "WarnNonVisibleToken": "이 전투원은 당신에게 보이지 않습니다.",
+  "Round": "라운드 {round}",
+  "Rounds": "라운드",
+  "RoundPrev": "이전 라운드",
+  "RoundNext": "다음 라운드",
+  "RollNPC": "NPC 우선권 굴리기",
+  "RollAll": "모든 우선권 굴리기",
+  "RollsInitiative": "{name} 캐릭터가 우선권을 굴립니다!",
+  "Settings": "전투 트래커 설정",
+  "SettingsSave": "트래커 설정 저장",
+  "SidebarTitle": "전투 트래커",
+  "Sounds": {
+    "Epic": "에픽 사운드",
+    "MC": "전투 해설자"
+  },
+  "ToggleVis": "숨기기/보이기 전환",
+  "ToggleDead": "쓰러짐으로 표시",
+  "Turn": "전투 차례",
+  "Turns": "차례",
+  "TurnEnd": "차례 종료",
+  "TurnNext": "다음 차례",
+  "TurnPrev": "이전 차례",
+  "UnknownCombatant": "미지의 전투원",
+  "CannotLinkToScene": "해당 전투를 장면에 링크하려면 장면에 전투원이 모두 있어야 합니다.",
+  "CombatantActor": "연결된 액터",
+  "CombatantCreate": "전투원 생성",
+  "CombatantDefeated": "쓰러짐",
+  "CombatantHidden": "숨겨짐",
+  "CombatantImage": "섬네일 이미지",
+  "CombatantInitiative": "우선권 값",
+  "CombatantStatus": "전투원 상태",
+  "CombatantUpdate": "전투원 업데이트",
+  "CombatantUpdateNamed": "전투원 업데이트: {name}",
+  "CombatantName": "표시된 이름",
+  "CombatantRemove": "전투원 제거",
+  "CombatantClear": "우선권 초기화",
+  "CombatantReroll": "우선권 재굴림",
+  "CombatantClearMovementHistory": "이동 기록 지우기",
+  "CombatantMovementHistoryCleared": "토큰 \"{name}\"의 이동 기록을 지웠습니다.",
+  "CombatantToken": "연결된 토큰",
+  "CombatantScene": "전투원 장면",
+  "CombatantNotInScene": "현재 장면에 {name} 전투원이 없습니다.",
+  "ACTIONS": {
+    "LinkToScene": "현재 장면에 링크",
+    "UnlinkFromScene": "장면에서 링크 해제"
+  },
+  "DURATION": {
+    "ROUNDS": {
+      "one": "라운드",
+      "two": "라운드",
+      "few": "라운드",
+      "many": "라운드",
+      "other": "라운드"
+    },
+    "TURNS": {
+      "one": "차례",
+      "two": "차례",
+      "few": "차례",
+      "many": "차례",
+      "other": "차례"
+    },
+    "None": "없음"
   },
   "FIELDS": {
-    "core.combatTrackerConfig": {
-      "skipDefeated": {
-        "label": "패배자 건너뛰기",
-        "hint": "패배한 것으로 표시된 전투원을 자동으로 건너뜁니다."
-      },
-      "resource": {
-        "label": "추적된 리소스",
-        "hint": "각 전투원에 대해 추적할 속성을 선택합니다."
-      },
-      "turnMarker": {
-        "enabled": {
-          "label": "마커 활성화",
-          "hint": "모든 토큰에 기본적으로 전투 턴 마커를 활성화합니다."
+    "round": {
+      "label": "라운드"
+    },
+    "turn": {
+      "label": "차례"
+    }
+  },
+  "TURN_MARKERS": {
+    "ANIMATIONS": {
+      "SPIN": "회전",
+      "SPIN_PULSE": "회전-맥동",
+      "PULSE": "맥동"
+    }
+  },
+  "CONFIG": {
+    "SHEET": {
+      "TURN_MARKERS": "토큰 차례 마커"
+    },
+    "FIELDS": {
+      "core.combatTrackerConfig": {
+        "skipDefeated": {
+          "label": "쓰러진 전투원 건너뛰기",
+          "hint": "쓰러진 전투원을 자동으로 건너뜁니다."
         },
-        "src": {
-          "label": "미디어 소스",
-          "hint": "기본적으로 토큰 턴 마커로 사용할 이미지 또는 비디오 파일입니다."
+        "resource": {
+          "label": "추적된 속성",
+          "hint": "각 전투원마다 추적할 속성을 선택합니다."
         },
-        "animation": {
-          "label": "애니메이션",
-          "hint": "각 토큰 턴 마커에 기본적으로 사용할 애니메이션 유형입니다."
-        },
-        "disposition": {
-          "label": "성향 색상",
-          "hint": "토큰의 성향(우호적/중립/적대적)에 따라 턴 마커에 색조를 적용합니다."
+        "turnMarker": {
+          "enabled": {
+            "label": "마커 활성화",
+            "hint": "모든 토큰에 기본적으로 전투 차례 마커를 활성화합니다."
+          },
+          "src": {
+            "label": "미디어 소스",
+            "hint": "토큰 차례 마커 기본값으로 사용할 이미지 또는 동영상을 선택합니다."
+          },
+          "animation": {
+            "label": "애니메이션",
+            "hint": "각 토큰 차례 마커에 기본으로 사용할 애니메이션 유형입니다."
+          },
+          "disposition": {
+            "label": "성향 색상",
+            "hint": "토큰 성향에 따라 차례 마커에 색조를 적용합니다."
+          }
         }
       }
     }
-  }
+  },
+  "PingInvisibleToken": "당신은 이 전투원의 토큰을 볼 수 없습니다.",
+  "ResourceHint": "각 전투원마다 추적할 속성을 선택합니다.",
+  "SkipDefeatedHint": "쓰러진 전투원을 자동으로 건너뛰시겠습니까?",
+  "TargetedBy": "{list}에게 지정됨",
+  "ToggleTargeting": "지정 전환"
 },
 
 "COMPENDIUM.Name": "컴펜디엄 명칭",
@@ -633,9 +658,13 @@
 },
 "COMPENDIUM.ImportEntry": "항목 가져오기",
 "COMPENDIUM.Locked": "{title} [잠김]",
+"COMPENDIUM.Migration": {
+  "Begin": "컴펜디엄 팩 {collection} 마이그레이션을 시작합니다. 잠시만 기다려 주세요.",
+  "Complete": "컴펜디엄 팩 {collection}을(를) 성공적으로 마이그레이션했습니다."
+},
 "COMPENDIUM.SidebarTitle": "컴펜디엄 팩",
 "COMPENDIUM.Type": "문서 유형",
-"COMPENDIUM.TypeHint": "각 컴펜디엄은 특정한 문서 유형의 데이터를 저장합니다.",
+"COMPENDIUM.TypeHint": "각 컴펜디엄 팩에는 특정 문서 유형이 포함되어 있습니다.",
 "COMPENDIUM.ToggleLocked": {
   "Option": "편집 잠금 전환",
   "Title": "편집 잠금 전환: {compendium}",
@@ -794,11 +823,11 @@
   "RightClickDuringDrag": "드래그 중 마우스 오른쪽 클릭",
   "MiddleClick": "가운데 클릭",
   "AltRightClick": "{alt} + 오른쪽 클릭",
-  "Click": "Click",
-  "ClickDrag": "Click + Drag",
+  "Click": "클릭",
+  "ClickDrag": "클릭 + 드래그",
   "ClickOrClickDrag": "<span class=\"참조\">클릭</span> 또는 <span class=\"참조\">클릭 + 드래그</span>",
-  "Control": "Control",
-  "Ctrl": "Control",
+  "Control": "컨트롤",
+  "Ctrl": "컨트롤",
   "CtrlAbbr": "CTRL",
   "CtrlClickDrag": "{mod} + 클릭 + 드래그",
   "Alt": "Alt",
@@ -814,8 +843,8 @@
   "ShiftDrag": "Shift + 드래그",
   "Spacebar": "SPACEBAR",
   "Delete": "DELETE",
-  "Drag": "Drag",
-  "Drop": "Drop",
+  "Drag": "드래그",
+  "Drop": "드롭",
   "KeyHighlight": "캔버스 개체 강조 표시",
   "KeyPan": "팬 캔버스",
   "KeyZoomIn": "줌인",
@@ -855,22 +884,22 @@
   "DrawingHeader": "그리기 도구 컨트롤",
   "DrawingTextConfirm": "드로잉 텍스트 확인",
   "DrawingTextCancel": "그리기 텍스트 취소",
-  "CommonCreate": "Create",
-  "CommonMove": "Move",
+  "CommonCreate": "생성",
+  "CommonMove": "이동",
   "CommonEdit": "편집",
-  "CommonHide": "Hide",
+  "CommonHide": "숨기기",
   "CommonDelete": "삭제",
   "CommonRotate": "회전",
   "CommonToggleHUD": "HUD 토글",
-  "CommonDraw": "Draw",
+  "CommonDraw": "그리기",
   "CommonDrawProportional": "비례적으로 그리기",
   "CommonPlace": "Place",
   "CommonBlocks": "블록",
-  "CommonChain": "Chain",
+  "CommonChain": "체인",
   "CommonMovePoint": "이동 지점",
   "CommonOpenClose": "열기/닫기",
   "CommonOpenCloseSilently": "조용히 열기/닫기",
-  "CommonLock": "Lock",
+  "CommonLock": "잠금",
   "CommonLockSilently": "조용히 잠금",
   "CommonOnOff": "켜기/끄기 토글",
   "CommonSelect": "선택",
@@ -890,15 +919,16 @@
 
 "DICE": {
   "ErrorNonNumeric": "주사위 굴림 공식 {포뮬러}가 숫자 결과를 생성하지 못했습니다.",
+  "ErrorNotParsable": "주사위 굴림 공식 \"{formula}\"이(가) 문자열이 아닙니다.",
   "ManualRoll": "수동 굴림",
-  "RollResolution": "굴림 해상도",
+  "RollResolution": "굴림 판정",
   "SubmitRoll": "굴림 제출",
-  "SubmitRollPl": "굴림 제출하기",
+  "SubmitRollPl": "굴림 제출(복수)",
   "WarnMissingData": "제공된 굴림 데이터에 {match} 속성이 없습니다.",
   "CONFIG": {
-    "Hint": "주사위 굴림을 수행하는 방법을 구성합니다.",
-    "Label": "주사위 구성",
-    "Title": "주사위 구성"
+    "Hint": "주사위 굴림 방식 설정",
+    "Label": "주사위 설정",
+    "Title": "주사위 설정"
   },
   "FULFILLMENT": {
     "Default": "파운드리 VTT 디지털 굴림",
@@ -1356,7 +1386,8 @@
   "LOCK": "액션 바 잠금",
   "UNLOCK": "액션 바 잠금 해제",
   "PAGE_NEXT": "다음 페이지",
-  "PAGE_PREV": "이전 페이지",
+  "PAGE_PREV": "이전 페이지",  
+  "EMPTY": "슬롯 비우기",
   "CLEAR": "액션 바 비우기",
   "CLEAR_CONFIRM": "할당된 모든 매크로를 액션 바에서 제거하시겠습니까?"
 },
@@ -2032,6 +2063,11 @@
     "yes": "공유 허용",
     "no": "공유 거부"
   },
+    "ChangePassword": {
+    "label": "비밀번호 변경",
+    "hint": "기존 관리자 비밀번호를 입력하세요.",
+    "title": "기존 비밀번호 입력"
+  },
   "SECTIONS": {
     "FVTTConfig": "Foundry VTT 설정",
     "ServerConfig": "서버 설정",
@@ -2199,6 +2235,9 @@
 "SETTINGS.GridDiagonalsAlternating1": "교차 (1/2/1)",
 "SETTINGS.GridDiagonalsAlternating2": "교차 (2/1/2)",
 "SETTINGS.GridDiagonalsIllegal": "대각선 불가 (∞)",
+
+"SETTINGS.UniversalKeybindingsN": "범용 키 바인딩 (실험적)",
+"SETTINGS.UniversalKeybindingsL": "물리적 키 위치 대신 입력한 문자로 단축키를 일치시킵니다. AZERTY, QWERTZ, 가나 등 다양한 레이아웃 지원을 개선합니다. 이는 실험적 기능이며, 다시 불러오기가 필요합니다.",
 
 "SETTINGS.UI": {
   "MENU": {
@@ -2448,11 +2487,15 @@
   "UpdateWarningWillDisable": "이 업데이트는 Foundry Virtual Tabletop 소프트웨어의 새로운 주요 버전입니다. 이 업데이트를 설치하면 아직 호환되지 않을 수 있는 일부 설치된 모듈을 비활성화해야 합니다.",
   "UpdateButtonDownload": "업데이트 {display} 다운로드",
   "UpdateInfoAvailable": "Foundry Virtual Tabletop {display}에 대한 업데이트가 제공됩니다!",
-  "UpdateNoUpdateMode": "이 인스턴스는 --noupdate 모드에서 시작되었으므로 업데이트할 수 없습니다.",
   "UpdateNotAvailable": "요청된 업데이트 채널에서 현재 사용할 수 있는 소프트웨어 업데이트가 없습니다.",
   "UpdateNoArchive": "설치할 업데이트 아카이브가 없습니다.",
   "UpdateLicenseInvalid": "Foundry Virtual Tabletop 라이선스 키가 유효하지 않습니다.",
   "UpdatedPackages": "패키지 업데이트 로그",
+  "NoUpdateMode": {
+    "Label": "업데이트 비활성화됨",
+    "Hint": "이 Foundry Virtual Tabletop 인스턴스는 --noupdate 모드로 실행되었기 때문에 업데이트할 수 없습니다."
+  },  
+ 
   "Package": "패키지",
   "VersionChange": "버전 변경",
 
