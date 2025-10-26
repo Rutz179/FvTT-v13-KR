@@ -2694,8 +2694,8 @@
   "ModuleCreateHint": "이 양식을 사용하여 여러 월드에서 공유하거나 다른 사용자에게 배포할 수 있도록 패키징할 수 있는 모듈을 생성할 수 있습니다. 이 양식은 가능한 패키지 구성의 하위 집합을 지원합니다. 패키지를 생성한 후에는 JSON 매니페스트 파일을 수정하여 패키지를 추가로 관리하고 편집할 수 있습니다.",
   "ModuleCreateSuccess": "이제 사용할 수 있는 새 모듈 \"{id}\"를 생성했습니다!",
   "ModuleCreateErrorAlreadyExists": "모듈 \"{id}\"가 이미 존재합니다! 다른 패키지 식별자를 선택하세요.",
-  "ConfigTitle": "모듈: {module}",
-  "NewModuleTitle": "내 새 모듈",
+  "ConfigTitle": "Module: {module}",
+  "NewModuleTitle": "My New Module",
   "ModuleEdit": "모듈 편집",
   "ModuleEditHint": "이 양식을 사용하여 모듈 생성 데이터의 속성을 업데이트할 수 있습니다.",
   "ModuleEditWarning": "설치 가능한 모듈의 패키지 생성 데이터를 편집하고 있습니다. 이 데이터를 변경하면 모듈의 기능이나 추가 업데이트 기능이 중단될 수 있습니다. 주의해서 진행하세요.",
@@ -2762,14 +2762,14 @@
       "element": {
         "name": {
           "label": "이름",
-          "hint": "컴펜이움 팩을 식별하는 고유한 영숫자 문자열입니다. 특수 문자는 사용할 수 없습니다.",
-          "disabledHint": "이 컴펜이움 팩 이름은 이미 존재하므로 변경할 수 없습니다."
+          "hint": "컴펜디엄 팩을 식별하는 고유한 영숫자 문자열입니다. 특수 문자는 사용할 수 없습니다.",
+          "disabledHint": "이 컴펜디엄 팩 이름은 이미 존재하므로 변경할 수 없습니다."
         },
         "label.label": "라벨",
         "type.label": "문서 유형",
         "system": {
           "label": "필수 시스템",
-          "hint": "배우(Actor), 아이템(Item), 어드벤처(Adventure) 컴펜이움 팩은 어떤 게임 시스템을 위한 것인지 명시해야 합니다."
+          "hint": "배우(Actor), 아이템(Item), 어드벤처(Adventure) 컴펜디엄 팩은 어떤 게임 시스템을 위한 것인지 명시해야 합니다."
         }
       }
     },
