@@ -329,7 +329,7 @@
     "AugustAbbr": "Aug",
     "September": "9월",
     "SeptemberAbbr": "Sep",
-    "October": "October",
+    "October": "10월",
     "OctoberAbbr": "Oct",
     "November": "11월",
     "NovemberAbbr": "Nov",
@@ -836,7 +836,7 @@
   "CtrlClick": "{mod} + 클릭",
   "ShiftClick": "Shift + 클릭",
   "ChainCtrlClick": "<span class=\"reference\">{mod}</span>을 누른 다음 <span class=\"reference\">클릭</span>을 클릭합니다.",
-  "DoubleClick": "Double Click",
+  "DoubleClick": "더블클릭",
   "Shift": "Shift",
   "ShiftScroll": "Shift + 스크롤",
   "ShiftOrCtrlScroll": "<span class=\"reference\">SHIFT + 스크롤</span> 또는 <span class=\"reference\">{mod} + 스크롤</span>",
@@ -904,21 +904,21 @@
   "CommonOnOff": "켜기/끄기 토글",
   "CommonSelect": "선택",
   "CommonSelectMultiple": "다중 선택",
-  "CommonOpenSheet": "Open Sheet",
+  "CommonOpenSheet": "시트 열기",
   "DisableToolclips": "설정에서 툴클립 비활성화",
-  "CutObjects": "개체 {개수} {type}을 잘라냅니다.",
-  "CopiedObjects": "개수} {type} 개체를 복사했습니다.",
-  "PastedObjects": "개체 {개수} {type}을 붙여넣었습니다.",
-  "DeletedObjects": "삭제된 {개수} {type} 개체입니다.",
+  "CutObjects": "개체 {count} {type}을 잘라냅니다.",
+  "CopiedObjects": "{count} {type} 개체를 복사했습니다.",
+  "PastedObjects": "개체 {count} {type}을 붙여넣었습니다.",
+  "DeletedObjects": "삭제된 {count} {type} 개체입니다.",
   "UndoCreateObjects": "{count} {type} 오브젝트의 생성을 되돌렸습니다.",
-  "UndoDeleteObjects": "개수} {type} 개체의 삭제를 되돌렸습니다.",
+  "UndoDeleteObjects": "{count} {type} 개체의 삭제를 되돌렸습니다.",
   "EmptyUndoHistory": "실행 취소할 {type} 개체에 대한 추적된 기록이 더 이상 없습니다.",
   "ObjectIsLocked": "{type} 개체가 잠겨 있는 동안에는 이 작업을 수행할 수 없습니다.",
   "ObjectConfigured": "다른 객체를 구성하는 동안에는 이 작업을 수행할 수 없습니다."
 },
 
 "DICE": {
-  "ErrorNonNumeric": "주사위 굴림 공식 {포뮬러}가 숫자 결과를 생성하지 못했습니다.",
+  "ErrorNonNumeric": "주사위 굴림 공식 {formula}가 숫자 결과를 생성하지 못했습니다.",
   "ErrorNotParsable": "주사위 굴림 공식 \"{formula}\"이(가) 문자열이 아닙니다.",
   "ManualRoll": "수동 굴림",
   "RollResolution": "굴림 판정",
@@ -1504,6 +1504,7 @@
   "Paste": "개체 붙여넣기",
   "Target": "토큰 타겟팅",
   "Ruler": "거리 측정기 토글",
+  "UnconstrainedMovement": "제한 없는 이동 토글",
   "SendToBack": "개체 뒤로 보내기",
   "BringToFront": "개체 앞으로 가져오기",
   "ToggleCharacterSheet": "캐릭터 시트 열기/닫기",
@@ -2583,8 +2584,8 @@
     "Snapshot": "스냅샷",
     "TakeBackup": "백업 생성",
     "VersionFormat": "버전 {version}",
-    "Num": "{숫자}개의 백업",
-    "NumPl": "{숫자}개의 백업",
+    "Num": "{number}개의 백업",
+    "NumPl": "{number}개의 백업",
     "TotalSize": "총 용량",
     "TYPE": {
       "world": "월드",
@@ -2761,14 +2762,14 @@
       "element": {
         "name": {
           "label": "이름",
-          "hint": "개요 팩을 식별하는 고유한 영숫자 문자열입니다. 특수 문자는 사용할 수 없습니다.",
-          "disabledHint": "이 개요 팩 이름은 이미 존재하므로 변경할 수 없습니다."
+          "hint": "컴펜이움 팩을 식별하는 고유한 영숫자 문자열입니다. 특수 문자는 사용할 수 없습니다.",
+          "disabledHint": "이 컴펜이움 팩 이름은 이미 존재하므로 변경할 수 없습니다."
         },
         "label.label": "라벨",
         "type.label": "문서 유형",
         "system": {
           "label": "필수 시스템",
-          "hint": "배우(Actor), 아이템(Item), 어드벤처(Adventure) 개요 팩은 어떤 게임 시스템을 위한 것인지 명시해야 합니다."
+          "hint": "배우(Actor), 아이템(Item), 어드벤처(Adventure) 컴펜이움 팩은 어떤 게임 시스템을 위한 것인지 명시해야 합니다."
         }
       }
     },
@@ -3325,7 +3326,7 @@
   "Client": "Client",
   "Screen": "화면 크기",
   "Viewport": "Viewport Dimensions",
-  "Dimensions": "{폭} 높이} × {높이}",
+  "Dimensions": "{width} 높이} × {height}",
   "GPU": "GPU",
   "MaxTextureSize": "최대 텍스처 크기",
   "LargestTexture": "가장 큰 텍스처",
