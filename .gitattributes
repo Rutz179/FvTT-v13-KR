@@ -1,0 +1,5 @@
+# 줄바꿈을 LF 로 통일 (Windows CRLF 때문에 파일 전체가 바뀐 것처럼 보이는 문제 방지)
+* text=auto eol=lf
+*.zip binary
+*.png binary
+*.webp binary

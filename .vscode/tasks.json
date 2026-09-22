@@ -1,0 +1,11 @@
+{
+  // VS Code: Ctrl+Shift+P → "Tasks: Run Task" 에서 실행
+  "version": "2.0.0",
+  "tasks": [
+    { "label": "l10n: status", "type": "shell", "command": "python tools/l10n.py status", "problemMatcher": [] },
+    { "label": "l10n: sync (en.json 교체 후)", "type": "shell", "command": "python tools/l10n.py sync", "problemMatcher": [] },
+    { "label": "l10n: export (DeepL 용 추출)", "type": "shell", "command": "python tools/l10n.py export", "problemMatcher": [] },
+    { "label": "l10n: import (DeepL 결과 반영)", "type": "shell", "command": "python tools/l10n.py import", "problemMatcher": [] },
+    { "label": "l10n: check", "type": "shell", "command": "python tools/l10n.py check", "problemMatcher": [] }
+  ]
+}

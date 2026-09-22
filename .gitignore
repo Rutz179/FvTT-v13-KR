@@ -1,0 +1,8 @@
+# DeepL 작업용 임시 파일
+tools
+l10n
+# 빌드 산출물
+module.zip
+.DS_Store
+Thumbs.db
+__pycache__/

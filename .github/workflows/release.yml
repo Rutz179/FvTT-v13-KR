@@ -1,0 +1,62 @@
+# 태그를 push 하면 자동으로 GitHub Release 를 만들고 module.json / module.zip 을 올립니다.
+#   git tag v1.4.0 && git push origin v1.4.0
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # 번역에 치환자 누락 등 오류가 있으면 릴리스 중단
+      - name: Check translations
+        run: python tools/l10n.py check --max-warn 0
+
+      - name: Set version & URLs in module.json
+        env:
+          TAG: ${{ github.ref_name }}
+          REPO: ${{ github.repository }}
+        run: |
+          VERSION="${TAG#v}"
+          jq --arg v "$VERSION" \
+             --arg url "https://github.com/$REPO" \
+             --arg manifest "https://github.com/$REPO/releases/latest/download/module.json" \
+             --arg download "https://github.com/$REPO/releases/download/$TAG/module.zip" \
+             '.version=$v | .url=$url | .manifest=$manifest | .download=$download' \
+             module.json > module.tmp && mv module.tmp module.json
+          cat module.json
+
+      # main 브랜치의 태그만 "Latest" 로 지정 (v13 브랜치 패치가 최신 릴리스를 덮어쓰지 않도록)
+      - name: Is this main?
+        id: branch
+        run: |
+          if git branch -r --contains "$GITHUB_SHA" | grep -q "origin/main$"; then
+            echo "latest=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "latest=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Build zip
+        run: zip -r module.zip module.json README.md LICENSE lang/ko.json
+
+      - name: Publish release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            module.json
+            module.zip
+          generate_release_notes: true
+          make_latest: ${{ steps.branch.outputs.latest }}
