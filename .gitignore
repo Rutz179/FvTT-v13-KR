@@ -1,6 +1,5 @@
 # DeepL 작업용 임시 파일
-tools
-l10n
+l10n/deepl/
 # 빌드 산출물
 module.zip
 .DS_Store

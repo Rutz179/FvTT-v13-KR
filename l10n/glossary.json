@@ -1,0 +1,18 @@
+{
+  "_설명": "용어집. check 명령이 영어에 이 용어가 있는데 번역에 대응 단어가 없으면 경고합니다. 여러 표기를 허용하려면 배열로.",
+  "_keep_english": ["Foundry Virtual Tabletop"],
+  "Token": "토큰",
+  "Scene": "장면",
+  "Region": ["구역", "영역"],
+  "Compendium": "컴펜디엄",
+  "Journal": "저널",
+  "Tile": "타일",
+  "Wall": "벽",
+  "Macro": "매크로",
+  "Combatant": "전투원",
+  "Initiative": "우선권",
+  "World": "월드",
+  "Module": "모듈",
+  "Canvas": "캔버스",
+  "Folder": "폴더"
+}
