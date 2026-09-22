@@ -4,9 +4,9 @@
         "minimum": "14",
         "verified": "14"
     },
-    "title": "Rutz's FvTT-KR (v14)",
+    "title": "Rutz's Translation: Korean [Core]",
     "description": "FvTT v14 코어의 한국어 번역 모듈입니다.<br>This is a Korean translation module for the Foundry VTT Core version 14.",
-    "version": "2.0.0",
+    "version": "2.0.2",
     "authors": [
         {
             "name": "Rutz(rutz179)"
