@@ -5,3 +5,9 @@ module.zip
 .DS_Store
 Thumbs.db
 __pycache__/
+
+# Rutz Studio
+.private/
+dist/
+node_modules/
+tools/local.config.json
